@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  AnimatedTextFieldDemo
+
+  Created by Ibrahim Mo Gedami on 01/02/2021.
+  
+*/
+"namePlaceholder" = "الإسم";
+"passwordPlaceholder" = "الرقم السري";

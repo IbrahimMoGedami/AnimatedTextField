@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030B5F1725C9311800A01024 /* LocalizedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5F1625C9311800A01024 /* LocalizedTextField.swift */; };
+		030B5F1A25C9317A00A01024 /* Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5F1925C9317A00A01024 /* Language.swift */; };
+		030B5F2025C931AA00A01024 /* LocalizableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5F1F25C931AA00A01024 /* LocalizableLabel.swift */; };
+		030B5F2425C931EB00A01024 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5F2325C931EB00A01024 /* Extensions.swift */; };
+		030B5F2725C9327200A01024 /* LanguageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5F2625C9327200A01024 /* LanguageVC.swift */; };
+		030B5F2B25C9353700A01024 /* LocalizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030B5F2A25C9353700A01024 /* LocalizedButton.swift */; };
+		03660FF525C589F900F466D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03660FF425C589F900F466D0 /* AppDelegate.swift */; };
+		03660FF925C589F900F466D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03660FF825C589F900F466D0 /* ViewController.swift */; };
+		03660FFC25C589F900F466D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03660FFA25C589F900F466D0 /* Main.storyboard */; };
+		03660FFE25C589FB00F466D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03660FFD25C589FB00F466D0 /* Assets.xcassets */; };
+		0366100125C589FB00F466D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03660FFF25C589FB00F466D0 /* LaunchScreen.storyboard */; };
+		03D889CE25C78EA100E99AA3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03D889D025C78EA100E99AA3 /* Localizable.strings */; };
+		25D1D34C68CCF018050BB56A /* Pods_AnimatedTextFieldDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14BF4C3553F1FC7CFAF2F1F0 /* Pods_AnimatedTextFieldDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030B5F1625C9311800A01024 /* LocalizedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedTextField.swift; sourceTree = "<group>"; };
+		030B5F1925C9317A00A01024 /* Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Language.swift; sourceTree = "<group>"; };
+		030B5F1F25C931AA00A01024 /* LocalizableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableLabel.swift; sourceTree = "<group>"; };
+		030B5F2325C931EB00A01024 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		030B5F2625C9327200A01024 /* LanguageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageVC.swift; sourceTree = "<group>"; };
+		030B5F2A25C9353700A01024 /* LocalizedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizedButton.swift; sourceTree = "<group>"; };
+		03283F2825C9E76900C6C1C9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		03660FF125C589F900F466D0 /* AnimatedTextFieldDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimatedTextFieldDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03660FF425C589F900F466D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03660FF825C589F900F466D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03660FFB25C589F900F466D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03660FFD25C589FB00F466D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0366100025C589FB00F466D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0366100225C589FB00F466D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03A0CD0D25C78E1C00CCC34F /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		03D889CF25C78EA100E99AA3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		03D889D225C78EB400E99AA3 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		14BF4C3553F1FC7CFAF2F1F0 /* Pods_AnimatedTextFieldDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AnimatedTextFieldDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		910B80B8626004909051239A /* Pods-AnimatedTextFieldDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTextFieldDemo.debug.xcconfig"; path = "Target Support Files/Pods-AnimatedTextFieldDemo/Pods-AnimatedTextFieldDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CCE35021EAC78C004690FC4F /* Pods-AnimatedTextFieldDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimatedTextFieldDemo.release.xcconfig"; path = "Target Support Files/Pods-AnimatedTextFieldDemo/Pods-AnimatedTextFieldDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03660FEE25C589F900F466D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D1D34C68CCF018050BB56A /* Pods_AnimatedTextFieldDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03660FE825C589F900F466D0 = {
+			isa = PBXGroup;
+			children = (
+				03660FF325C589F900F466D0 /* AnimatedTextFieldDemo */,
+				03660FF225C589F900F466D0 /* Products */,
+				416068042DF1629FC0BD5DF3 /* Pods */,
+				8DA7C1B52DC07CF089D7F10D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03660FF225C589F900F466D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03660FF125C589F900F466D0 /* AnimatedTextFieldDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03660FF325C589F900F466D0 /* AnimatedTextFieldDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03660FF425C589F900F466D0 /* AppDelegate.swift */,
+				03660FF825C589F900F466D0 /* ViewController.swift */,
+				030B5F2625C9327200A01024 /* LanguageVC.swift */,
+				03660FFA25C589F900F466D0 /* Main.storyboard */,
+				03660FFD25C589FB00F466D0 /* Assets.xcassets */,
+				03660FFF25C589FB00F466D0 /* LaunchScreen.storyboard */,
+				0366100225C589FB00F466D0 /* Info.plist */,
+				03D889D025C78EA100E99AA3 /* Localizable.strings */,
+				030B5F1625C9311800A01024 /* LocalizedTextField.swift */,
+				030B5F1925C9317A00A01024 /* Language.swift */,
+				030B5F1F25C931AA00A01024 /* LocalizableLabel.swift */,
+				030B5F2325C931EB00A01024 /* Extensions.swift */,
+				030B5F2A25C9353700A01024 /* LocalizedButton.swift */,
+			);
+			path = AnimatedTextFieldDemo;
+			sourceTree = "<group>";
+		};
+		416068042DF1629FC0BD5DF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				910B80B8626004909051239A /* Pods-AnimatedTextFieldDemo.debug.xcconfig */,
+				CCE35021EAC78C004690FC4F /* Pods-AnimatedTextFieldDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8DA7C1B52DC07CF089D7F10D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14BF4C3553F1FC7CFAF2F1F0 /* Pods_AnimatedTextFieldDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03660FF025C589F900F466D0 /* AnimatedTextFieldDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0366100525C589FB00F466D0 /* Build configuration list for PBXNativeTarget "AnimatedTextFieldDemo" */;
+			buildPhases = (
+				74BCB0F6DF9EB6F4BBF1AE55 /* [CP] Check Pods Manifest.lock */,
+				03660FED25C589F900F466D0 /* Sources */,
+				03660FEE25C589F900F466D0 /* Frameworks */,
+				03660FEF25C589F900F466D0 /* Resources */,
+				29FE71126D4D91B272AA290F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedTextFieldDemo;
+			productName = AnimatedTextFieldDemo;
+			productReference = 03660FF125C589F900F466D0 /* AnimatedTextFieldDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03660FE925C589F900F466D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					03660FF025C589F900F466D0 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 03660FEC25C589F900F466D0 /* Build configuration list for PBXProject "AnimatedTextFieldDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 03660FE825C589F900F466D0;
+			productRefGroup = 03660FF225C589F900F466D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03660FF025C589F900F466D0 /* AnimatedTextFieldDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03660FEF25C589F900F466D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03D889CE25C78EA100E99AA3 /* Localizable.strings in Resources */,
+				0366100125C589FB00F466D0 /* LaunchScreen.storyboard in Resources */,
+				03660FFE25C589FB00F466D0 /* Assets.xcassets in Resources */,
+				03660FFC25C589F900F466D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29FE71126D4D91B272AA290F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatedTextFieldDemo/Pods-AnimatedTextFieldDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AnimatedTextFieldDemo/Pods-AnimatedTextFieldDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AnimatedTextFieldDemo/Pods-AnimatedTextFieldDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74BCB0F6DF9EB6F4BBF1AE55 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AnimatedTextFieldDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03660FED25C589F900F466D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03660FF925C589F900F466D0 /* ViewController.swift in Sources */,
+				030B5F2425C931EB00A01024 /* Extensions.swift in Sources */,
+				030B5F2725C9327200A01024 /* LanguageVC.swift in Sources */,
+				030B5F2B25C9353700A01024 /* LocalizedButton.swift in Sources */,
+				030B5F1A25C9317A00A01024 /* Language.swift in Sources */,
+				030B5F2025C931AA00A01024 /* LocalizableLabel.swift in Sources */,
+				03660FF525C589F900F466D0 /* AppDelegate.swift in Sources */,
+				030B5F1725C9311800A01024 /* LocalizedTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03660FFA25C589F900F466D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03660FFB25C589F900F466D0 /* Base */,
+				03A0CD0D25C78E1C00CCC34F /* ar */,
+				03283F2825C9E76900C6C1C9 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03660FFF25C589FB00F466D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0366100025C589FB00F466D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		03D889D025C78EA100E99AA3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03D889CF25C78EA100E99AA3 /* en */,
+				03D889D225C78EB400E99AA3 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0366100325C589FB00F466D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0366100425C589FB00F466D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0366100625C589FB00F466D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 910B80B8626004909051239A /* Pods-AnimatedTextFieldDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V639XPXR4D;
+				INFOPLIST_FILE = AnimatedTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ebrahim-Mo-Gedamy.AnimatedTextFieldDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0366100725C589FB00F466D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE35021EAC78C004690FC4F /* Pods-AnimatedTextFieldDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V639XPXR4D;
+				INFOPLIST_FILE = AnimatedTextFieldDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Ebrahim-Mo-Gedamy.AnimatedTextFieldDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03660FEC25C589F900F466D0 /* Build configuration list for PBXProject "AnimatedTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0366100325C589FB00F466D0 /* Debug */,
+				0366100425C589FB00F466D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0366100525C589FB00F466D0 /* Build configuration list for PBXNativeTarget "AnimatedTextFieldDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0366100625C589FB00F466D0 /* Debug */,
+				0366100725C589FB00F466D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03660FE925C589F900F466D0 /* Project object */;
+}

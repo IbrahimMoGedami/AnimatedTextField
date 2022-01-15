@@ -1,0 +1,18 @@
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "1DB-G3-rk3"; */
+"1DB-G3-rk3.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "OG7-ox-TOk"; */
+"OG7-ox-TOk.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "RyF-eY-zlV"; */
+"RyF-eY-zlV.text" = "Name";
+
+/* Class = "UILabel"; text = "Register"; ObjectID = "hiL-r0-16E"; */
+"hiL-r0-16E.text" = "Register";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "mwg-6e-0MK"; */
+"mwg-6e-0MK.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "xhI-fa-N9m"; */
+"xhI-fa-N9m.placeholder" = "Name";
